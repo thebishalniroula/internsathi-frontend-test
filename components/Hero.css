@@ -57,7 +57,7 @@
 }
 @media (max-width: 800px) {
   .hero {
-    justify-content: flex-start;
+    padding: 2rem 1rem;
   }
   .hero .right img {
     width: 25rem;

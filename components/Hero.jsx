@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../public/internet-pasal-hero.png";
+import image from "/internet-pasal-hero.png";
 import "./Hero.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
