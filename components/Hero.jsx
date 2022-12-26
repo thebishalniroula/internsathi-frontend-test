@@ -16,13 +16,12 @@ const Hero = () => {
         </p>
         <div className="buttons">
           <button className="main-btn">
-            Try for free
+            Try for free{` `}
             <FontAwesomeIcon icon={faChevronRight} />
           </button>
           <button className="sec-btn">
-            {" "}
             <FontAwesomeIcon icon={faPlayCircle} />
-            Watch the video
+            {` `} Watch the video
           </button>
         </div>
       </div>

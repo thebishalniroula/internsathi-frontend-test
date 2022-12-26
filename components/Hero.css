@@ -5,6 +5,8 @@
   background-color: #deebff;
   justify-content: space-between;
   align-items: center;
+  max-width: 1600px;
+  margin: auto;
 }
 .left {
   flex-basis: 35rem;
@@ -23,7 +25,7 @@
   color: #212529;
 }
 .left p {
-  max-width: 60rem;
+  max-width: 65rem;
 }
 .hero .right img {
   display: block;
@@ -39,27 +41,48 @@
   padding: 1.2rem 3.5rem;
   border: none;
   font-size: 1.1rem;
-  border-radius: 10px;
+  border-radius: 7px;
+  cursor: pointer;
 }
+
 .main-btn {
   background-color: var(--primary-btn-bg);
   color: var(--primary-btn-color);
 }
+.buttons .main-btn:hover {
+  background-color: var(--primary-btn-hover-bg);
+}
 .sec-btn {
   background-color: var(--secondary-btn-bg);
-
   color: var(--primary-btn-color);
 }
-@media (max-width: 1100px) {
+
+.buttons .sec-btn:hover {
+  background-color: var(--secondary-btn-hover-bg);
+}
+@media (max-width: 1000px) {
   .hero {
+    padding: 2.5rem 1rem;
     flex-wrap: wrap;
   }
-}
-@media (max-width: 800px) {
-  .hero {
-    padding: 2rem 1rem;
+  .left,
+  .right {
+    flex-basis: 100%;
+    align-items: center;
+  }
+  .left h1,
+  .left p {
+    max-width: 100%;
+    text-align: center;
   }
   .hero .right img {
+    display: block;
+    margin: auto;
     width: 25rem;
+  }
+}
+@media (max-width: 1200px) {
+  .hero .right img {
+    width: 30rem;
   }
 }
