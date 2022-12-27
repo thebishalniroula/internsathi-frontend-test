@@ -2,12 +2,15 @@
   display: flex;
   justify-content: space-between;
   padding: 2.5rem 8rem;
-  background-color: #deebff;
   justify-content: space-between;
   align-items: center;
   max-width: 1600px;
   margin: auto;
 }
+.container {
+  background-color: #deebff;
+}
+
 .left {
   flex-basis: 35rem;
   display: flex;
@@ -63,7 +66,7 @@
 @media (max-width: 1000px) {
   .hero {
     padding: 2.5rem 1rem;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
   }
   .left,
   .right {
